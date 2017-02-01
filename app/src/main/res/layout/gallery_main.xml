@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/error"
+    android:visibility="gone"
+    android:layout_marginTop="50dp"
+
+    android:gravity="center">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/errorcloud"
+        android:src="@drawable/error_view_cloud"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:id="@+id/errortext"
+        android:text="No Internet Connection"
+        android:textSize="20sp"
+        android:paddingBottom="15dp"
+        android:textColor="#CC000000"/>
+</LinearLayout><LinearLayout
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible" >
+    <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+        android:id="@+id/progressbar"
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+
+        android:layout_height="4dp"
+        style="@style/GNowProgressBar"
+
+        android:indeterminate="true"/>
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/lvMovies"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:horizontalSpacing="6dip"
+        android:layout_margin="5dip"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="7dip"
+
+        />
+</LinearLayout>
+</LinearLayout>

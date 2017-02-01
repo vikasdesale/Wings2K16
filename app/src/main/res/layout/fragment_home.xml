@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:andriod="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:id="@+id/scrollView">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/v"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/geca"
+                    android:src="@drawable/geca_head"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgpresent"
+                    android:src="@drawable/imgpresent"
+                    android:layout_below="@+id/geca"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/imageView"
+                    android:src="@drawable/wingslogos"
+                    android:layout_below="@+id/geca"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/fg_1"
+                    android:layout_below="@+id/imageView"
+         />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:padding="10dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text=""
+                    android:layout_marginTop="-10dp"
+                    android:textAlignment="center"
+                    android:id="@+id/aboutWings1"
+                    android:layout_below="@+id/imageView2"
+                    /></RelativeLayout></ScrollView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:src="@drawable/f1"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

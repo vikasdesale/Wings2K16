@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.geca.wings.about.FeedbackActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/error"
+        android:visibility="gone"
+         android:layout_marginTop="50dp"
+
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/errorcloud"
+            android:src="@drawable/error_view_cloud"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:id="@+id/errortext"
+            android:text="No Internet Connection"
+            android:textSize="20sp"
+            android:paddingBottom="15dp"
+            android:textColor="#CC000000"/>
+    </LinearLayout><LinearLayout
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible" >
+    <include layout="@layout/content_feedback" />
+</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,244 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:background="@android:color/white"
+    tools:context="com.vikas.elibrary.activity.AboutUs">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center_horizontal"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fb"
+        android:src="@drawable/ic_facebook"
+
+        android:layout_alignTop="@+id/textView2"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView"
+        android:layout_marginRight="10dp"
+
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wt"
+        android:src="@drawable/ic_whatsapp11"
+        android:layout_below="@+id/fb"
+      />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ln"
+        android:src="@drawable/ic_linkedin"
+        android:layout_marginRight="10dp"
+
+        android:layout_marginLeft="10dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+
+        android:id="@+id/gp"
+        android:src="@drawable/ic_google_plus"
+
+        android:layout_alignTop="@+id/wt"
+        android:layout_alignLeft="@+id/fb"
+        android:layout_alignStart="@+id/fb" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/youtube"
+        android:layout_marginRight="10dp"
+
+        android:src="@drawable/ic_youtube"
+       />
+
+
+</LinearLayout>
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       android:layout_below="@+id/toolbar"
+        android:layout_margin="10dp"
+        android:id="@+id/card1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/facebook"
+                    android:layout_width="96dp"
+
+                    android:layout_height="96dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/facebook1"
+                    android:layout_weight="1"
+                    android:layout_gravity="left"
+                    android:paddingTop="15dp"/>
+
+                <ImageView
+                    android:id="@+id/web"
+                    android:layout_width="96dp"
+                    android:layout_weight="1"
+                    android:layout_height="96dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/chrome1"
+                    android:layout_gravity="center"
+                    android:paddingTop="15dp" />
+                <ImageView
+                    android:id="@+id/share"
+                    android:layout_width="96dp"
+                    android:layout_weight="1"
+                    android:layout_height="96dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/share1"
+                    android:layout_gravity="left"
+                    android:paddingTop="15dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:orientation="horizontal">
+                <TextView
+
+                    android:layout_weight="1"
+
+                    android:gravity="center"
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="Facebook"
+                    android:textColor="#3F51B5"
+                    android:textSize="20sp"
+
+
+
+                    />
+                <TextView
+
+                    android:layout_weight="1"
+
+                    android:gravity="center"
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:text="Website"
+                    android:textColor="#3F51B5"
+                    android:textSize="20sp"
+
+
+
+                    />
+
+                <TextView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="96dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Share"
+
+                    android:gravity="center"
+                    android:textColor="#3F51B5"
+                    android:textSize="20sp"
+
+
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/card1"
+        android:layout_margin="10dp">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp">
+
+        <com.pkmmte.view.CircularImageView
+            android:id="@+id/image_profile"
+            android:layout_centerVertical="true"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:src="@drawable/vabout"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            app:border="true"
+            app:border_color="@color/colorPrimary"
+            app:border_width="2dp"
+            app:shadow="true" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingTop="30dp"
+            android:textColor="#330011"
+            android:paddingBottom="5dp"
+            android:padding="5dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Vikas Desale"
+            android:layout_toRightOf="@+id/image_profile" />
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#330011"
+            android:paddingTop="5dp"
+            android:textSize="15dp"
+            android:paddingLeft="5dp"
+            android:text="Computer Science &amp; Engineering,\nGECA"
+            android:layout_below="@+id/title"
+            android:layout_toRightOf="@+id/image_profile"
+          />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+</RelativeLayout>

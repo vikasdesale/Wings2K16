@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">"Wings 2016 "</string>
+    <string name="action_settings">Developer</string>
+    <string name="title_activity_flip">FlipActivity</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="title_activity_event">EventActivity</string>
+    <string name="title_activity_committee">Committee</string>
+    <string name="title_activity_about_wings">About Wings</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="title_activity_feedback">FeedbackActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_register">RegisterActivity</string>
+</resources>

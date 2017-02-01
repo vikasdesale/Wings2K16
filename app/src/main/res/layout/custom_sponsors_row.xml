@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dip">
+
+    <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+        android:id="@+id/progressbar"
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+
+        android:layout_height="4dp"
+        style="@style/GNowProgressBar"
+
+        android:indeterminate="true"/>
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="200dp"
+        android:layout_height="200dip"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter" />
+
+
+</FrameLayout>

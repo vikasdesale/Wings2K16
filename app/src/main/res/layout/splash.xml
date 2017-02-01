@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@android:color/white"
+    tools:context=".MainActivity"
+    android:id="@+id/splash">
+
+    <ImageView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/wingslogos"
+   >
+
+
+    </ImageView>
+
+
+
+</RelativeLayout>
