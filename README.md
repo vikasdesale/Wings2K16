@@ -1,6 +1,15 @@
 # Wings2K16
 ****
 •	This application is for Wings 2K16 National Level Technical Fest Of Govt. College Of Engineering, Aurangabad.
+This is application includes all necessary details of event :-
+   1.Key Attractions
+   2.Gallery
+   3.Events
+   4.Map
+   5.Team
+   6.Feedback
+   7.Sponsors
+   
 
 # Screenshot
 ****
