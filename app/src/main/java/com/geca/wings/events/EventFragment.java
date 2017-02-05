@@ -14,9 +14,7 @@ import com.flaviofaria.kenburnsview.KenBurnsView;
 import com.geca.wings.MainActivity;
 import com.geca.wings.R;
 
-/**
- * Created by naman on 16/12/14.
- */
+
 public class EventFragment extends Fragment implements View.OnClickListener, AdapterView.OnItemClickListener {
 
     KenBurnsView imageView;

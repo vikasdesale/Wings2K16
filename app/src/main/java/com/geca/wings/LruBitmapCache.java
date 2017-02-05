@@ -1,8 +1,6 @@
 package com.geca.wings;
 
-/**
- * Created by sikkavayu2013 on 15-01-2015.
- */
+
 import android.graphics.Bitmap;
 import android.support.v4.util.LruCache;
 

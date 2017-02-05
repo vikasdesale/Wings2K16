@@ -15,7 +15,7 @@ import com.geca.wings.R;
 import java.util.ArrayList;
 
 /**
- * Created by naman on 16/12/14.
+ * Created by Dell on 1/18/2016.
  */
 public class CommitteeFragment extends Fragment{
 

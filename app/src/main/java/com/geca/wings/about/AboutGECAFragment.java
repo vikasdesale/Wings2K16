@@ -10,7 +10,9 @@ import android.widget.TextView;
 import com.geca.wings.MainActivity;
 import com.geca.wings.R;
 
-
+/**
+ * Created by Dell on 1/18/2016.
+ */
 public class AboutGECAFragment extends Fragment {
 
 

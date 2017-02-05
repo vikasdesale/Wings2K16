@@ -1,8 +1,6 @@
 package com.geca.wings.gallery;
 
-/**
- * Created by hisham on 9/6/2015.
- */
+
 public class GalleryImage {
 
 

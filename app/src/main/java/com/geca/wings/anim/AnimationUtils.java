@@ -4,6 +4,9 @@ import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.support.v7.widget.RecyclerView;
 import android.view.animation.DecelerateInterpolator;
+/**
+ * Created by Dell on 1/18/2016.
+ */
 
 public class AnimationUtils {
     private static int counter = 0;
